@@ -11,7 +11,6 @@ getItems() {
     addItem(newItem) {
        return this.#items.push(newItem);
     }
-    
     removeItem(itemToRemove) {
         const index = this.#items.indexOf(itemToRemove);
         if (index !== -1) {
